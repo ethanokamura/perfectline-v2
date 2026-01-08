@@ -3,13 +3,13 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth, GoogleAuthProvider, GithubAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA6MkHfA8A4sdKStDoHoU6PmTrXLkIktOo",
-  authDomain: "perfectline-io.firebaseapp.com",
-  projectId: "perfectline-io",
-  storageBucket: "perfectline-io.firebasestorage.app",
-  messagingSenderId: "265009724463",
-  appId: "1:265009724463:web:c32019839a8ff2ecec1ada",
-  measurementId: "G-Y9FBEQ0Y24",
+  apiKey: process.env.NEXT_PUBLIC_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_PROJECT_ID,
+  storageBucket: process.env.NEXT_PUBLIC_STORAGE_BUCKET,
+  messagingSenderId: process.env.MESSAGING_SENDER_ID,
+  appId: process.env.APP_ID,
+  measurementId: process.env.MEASUREMENT_ID,
 };
 
 // Initialize Firebase (prevent re-initialization in dev mode)
