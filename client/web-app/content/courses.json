@@ -1,0 +1,95 @@
+{
+  "courses": [
+    {
+      "title": "Intro to C++",
+      "description": " In this section, we will cover what C++ is and why one might use it.",
+      "author": "Ethan Okamura",
+      "date": "11-01-2023",
+      "tags": ["cpp", "beginner", "basics"],
+      "published": true,
+      "lang": "cpp",
+      "course": "cpp-101",
+      "img": "/assets/cpp-basics.webp",
+      "alt": "cpp-101-thumbnail",
+      "order": 1
+    },
+    {
+      "title": "Linked Lists",
+      "description": "Let's learn about one of the most iconic data structures: Doubly Linked Lists!",
+      "author": "Ethan Okamura",
+      "date": "03-20-2024",
+      "tags": ["cpp", "intermediate", "data-structures"],
+      "published": true,
+      "lang": "cpp",
+      "course": "linked-list",
+      "img": "/assets/linked-list.webp",
+      "alt": "linked-list-thumbnail",
+      "order": 2
+    },
+    {
+      "title": "Graphs",
+      "description": "Learn the basics of graph-structures and algorithms",
+      "author": "Ethan Okamura",
+      "date": "03-10-2025",
+      "tags": ["cpp", "intermediate", "data-structures"],
+      "published": true,
+      "lang": "cpp",
+      "course": "graphs",
+      "img": "/assets/graphs.webp",
+      "alt": "graphs-thumbnail",
+      "order": 3
+    },
+    {
+      "title": "Trees",
+      "description": "Binary-Search Trees, Red-Black Trees, AVL Trees and Heaps",
+      "author": "Ethan Okamura",
+      "date": "02-24-2025",
+      "tags": ["cpp", "intermediate", "data-structures"],
+      "published": true,
+      "lang": "cpp",
+      "course": "trees",
+      "img": "/assets/trees.webp",
+      "alt": "trees-thumbnail",
+      "order": 4
+    },
+    {
+      "title": "Maze Generator",
+      "description": "Practice DSA topics with an interactive maze generator and solver.",
+      "author": "Ethan Okamura",
+      "date": "04-01-2025",
+      "tags": ["cpp", "advanced", "data-structures"],
+      "published": false,
+      "lang": "cpp",
+      "course": "maze",
+      "img": "/imgs/thumbnails/maze.webp",
+      "alt": "maze-thumbnail",
+      "order": 5
+    },
+    {
+      "title": "Introduction to Flutter",
+      "description": " In this section, we will cover the basics of Flutter.",
+      "author": "Ethan Okamura",
+      "date": "03-18-2025",
+      "tags": ["dart", "mobile", "flutter"],
+      "published": false,
+      "lang": "dart",
+      "course": "flutter-101",
+      "img": "/imgs/thumbnails/flutter-101.webp",
+      "alt": "flutter-101-thumbnail",
+      "order": 101
+    },
+    {
+      "title": "Intro to Unity",
+      "description": "Get Familiar With The Unity Editor And Unity Hub",
+      "author": "Ethan Okamura",
+      "date": "11-01-2023",
+      "tags": ["unity", "beginner", "cs"],
+      "published": false,
+      "lang": "unity",
+      "course": "unity-101",
+      "img": "/imgs/thumbnails/unity-101.webp",
+      "alt": "unity-101-thumbnail",
+      "order": 201
+    }
+  ]
+}
